@@ -38,7 +38,10 @@ class component
     //overloaded input and output operators
 
     friend std :: istream& operator>>(std :: istream& input, component& AUX);
-
     friend std :: ostream& operator<<(std :: ostream& output, component& AUX);
+
+    //function to determine the number of terminals based on the id of the component
+
+    int id_to_terminal();
 
 };
