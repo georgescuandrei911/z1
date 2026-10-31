@@ -33,7 +33,5 @@ int main()
 
     input.close();
 
-    std :: cout << "test completed successfully" << std :: endl;
-
     return 0;
 }
